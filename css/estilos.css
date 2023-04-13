@@ -1,0 +1,136 @@
+
+body { font-family: 'Libre Franklin', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+background-color: #B4FDE6;
+color: #F93CA0;
+}
+
+header {text-align: left; display: flex; flex-direction: column;
+justify-content: left;
+align-items: left; margin-bottom: 10px;
+}
+
+
+
+.icono {margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 10px;
+    width: 200px; 
+}
+.logo {
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: 250px; 
+}
+.video {
+    width: 90%;
+    height: 600px;
+    margin-top: 30px;
+}
+.imgrespuesta {
+    text-align: center;
+    padding-top: 30px;
+}
+.respuestamobile {display: none;}
+.cajacontenedora { display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-flow: wrap; 
+    width: 100%; 
+    margin-top: 50px; 
+    margin-bottom: 50px;}
+.cajacontenedora div { background-color: #B4FDE6;}
+.flamingo {height: 350px; width: 100%;}
+.cajas {width: 100%;}
+.texto1 {margin-left: 3%; text-align: center; font-size: 20px; width: 25%;}
+#form {
+    background-color: #F93CA0; 
+    color: white; 
+    width: 80%; 
+    margin-left: 10%; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: small;
+}
+#form h1{
+    color: #F3F866;
+}
+#form p{
+    padding-top: 30px;
+}
+.boton {font-family:'Libre Franklin', sans-serif; 
+    background-color: #F3F866; 
+    color: #F93CA0; width: 200px; 
+    text-decoration: none; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    border-color: #F3F866; 
+    border-radius: 8px;}
+.boton:hover {background-color: #F93CA0; color: #F3F866; transition: all 0.5s; border-color: #B4FDE6; border-width: 3px;}
+.separador {border-top: 1px solid grey; width: 60%; height: 1px; margin: auto; margin-top: 50px;}
+.logofooter {display: flex;}
+footer {font-size: 15px;
+    font-weight: 100;
+    background-color: #B4FDE6;
+    color: #F93CA0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: baseline;}
+footer nav a {display: block; align-items: left; font-size: 11px; padding: 0px;}   
+#legal {
+    font-style: normal;
+} 
+.queen {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.join {
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 60px;
+}
+
+.logosredes i{font-size: 30px; padding: 15px; color: #F93CA0; margin-bottom: 20px;}
+h1 {font-family: 'Libre Franklin', sans-serif; font-size: 20px; text-align: left; padding-left: 220px;}
+h2 {font-family: 'Libre Franklin', sans-serif; font-size: 30px; text-align: left; padding-left: 220px;}
+
+
+
+
+footer div.logosredes {width: 100%; text-align: center; font-size: 10px; font-weight: 600;}
+footer div.brand {width: 100%; text-align: center;}
+iframe {width: 600px; height: 300px; display: block; margin: auto;}
+
+form {text-align: left; margin: auto; max-width: 700px;}
+input {padding: 6px; width: 90%; margin: 5px; background-color: #F93CA0; border-color: white; color: white;}
+textarea {width: 90%; margin: 5px; background-color: #F93CA0; border-color: white; color: white;}
+
+
+
+
+
+
+@media (max-width:480px) {
+    .logo {display: block;}
+    .texto1 {width: 50%; padding: 10px;}
+    #form {width: 100%; margin-left: 0;}
+    h1 {text-align: center; padding: 0;
+    }
+    form { text-align: center;}
+    .logofooter {display: block;}
+    .icono {display: block;}
+    iframe {width: 100%;}
+    footer div {width: 100%;}
+    .separador1 {display: block; border-top: 1px solid #e14835; width: 5%; height: 1px; margin: auto; margin-top: 20px; margin-bottom: 20px;}
+    .imgrespuesta {display: none;}
+    .respuestamobile {display: block; text-align: center;}
+
+}
